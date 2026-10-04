@@ -28,3 +28,5 @@ class LaravelCloudJsonFormatter extends JsonFormatter
         return $normalized;
     }
 }
+
+// alden e2e: hotfix
