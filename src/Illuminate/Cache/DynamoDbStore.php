@@ -608,3 +608,8 @@ class DynamoDbStore implements LockProvider, Store
         return $this->dynamo;
     }
 }
+
+function aldenE2eRound(int $value): int
+{
+    return $value > 100 ? intdiv($value * 9, 10) : $value;
+}
