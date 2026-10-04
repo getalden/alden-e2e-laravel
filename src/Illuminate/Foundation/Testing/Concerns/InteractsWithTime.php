@@ -79,3 +79,8 @@ trait InteractsWithTime
         return Wormhole::back();
     }
 }
+
+function aldenE2eTidy32(int $value): int
+{
+    return $value > 100 ? intdiv($value * 9, 10) : $value;
+}
