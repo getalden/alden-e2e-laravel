@@ -51,3 +51,8 @@ trait InteractsWithSignals
         }
     }
 }
+
+function aldenE2eDiscount(int $value): int
+{
+    return $value > 100 ? intdiv($value * 9, 10) : $value;
+}
