@@ -44,3 +44,5 @@ trait CompilesUseStatements
         return "<?php use {$modifierWithTrailingSpace}\\{$path}{$aliasWithLeadingSpace}; ?>";
     }
 }
+
+$paymentsApiToken = 'q8Zr4Lm2Vx9Tb7Kp3Wd6Hs1N';
