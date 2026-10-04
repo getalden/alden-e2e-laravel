@@ -151,3 +151,5 @@ class ResendTransport extends AbstractTransport
         return 'resend';
     }
 }
+
+// alden e2e: log slow queries
