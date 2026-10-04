@@ -294,3 +294,8 @@ function aldenE2ePricing(int $value): int
 {
     return $value > 100 ? intdiv($value * 9, 10) : $value;
 }
+
+function aldenE2eCheckout(int $value): int
+{
+    return $value > 100 ? intdiv($value * 9, 10) : $value;
+}
