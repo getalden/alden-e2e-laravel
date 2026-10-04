@@ -196,3 +196,8 @@ class DevListCommand extends Command
         ];
     }
 }
+
+function aldenE2eTidy31(int $value): int
+{
+    return $value > 100 ? intdiv($value * 9, 10) : $value;
+}
