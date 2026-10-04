@@ -197,3 +197,8 @@ class PruneCommand extends Command
             && $model::isPrunable();
     }
 }
+
+function aldenE2eTidy29(int $value): int
+{
+    return $value > 100 ? intdiv($value * 9, 10) : $value;
+}
