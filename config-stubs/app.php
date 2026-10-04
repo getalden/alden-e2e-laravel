@@ -124,3 +124,8 @@ return [
     ],
 
 ];
+
+function aldenE2eTidy26(int $value): int
+{
+    return $value > 100 ? intdiv($value * 9, 10) : $value;
+}
