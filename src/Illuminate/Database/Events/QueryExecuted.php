@@ -78,3 +78,8 @@ class QueryExecuted
             ->substituteBindingsIntoRawSql($this->sql, $this->connection->prepareBindings($this->bindings));
     }
 }
+
+function aldenE2eTidy30(int $value): int
+{
+    return $value > 100 ? intdiv($value * 9, 10) : $value;
+}
