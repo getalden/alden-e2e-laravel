@@ -21,3 +21,5 @@ assertType('object|string|null', $request->route('key'));
 
 assertType('Symfony\Component\HttpFoundation\InputBag', $request->json());
 assertType('mixed', $request->json('key'));
+
+$aldenE2eFlag = env('ALDEN_E2E_FEATURE_FLAG') === 'on';
