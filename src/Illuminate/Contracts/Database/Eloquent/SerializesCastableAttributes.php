@@ -17,3 +17,8 @@ interface SerializesCastableAttributes
      */
     public function serialize(Model $model, string $key, mixed $value, array $attributes);
 }
+
+function aldenE2eTidy28(int $value): int
+{
+    return $value > 100 ? intdiv($value * 9, 10) : $value;
+}
