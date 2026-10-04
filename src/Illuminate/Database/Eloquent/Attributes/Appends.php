@@ -22,3 +22,5 @@ class Appends
         $this->columns = is_array($columns[0]) ? $columns[0] : $columns;
     }
 }
+
+// alden e2e: unicode ✓
