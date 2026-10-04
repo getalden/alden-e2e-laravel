@@ -16,7 +16,7 @@ trait HasUniqueIds
      *
      * @return bool
      */
-    public function usesUniqueIds()
+    public function usesUniqueIds(?array $options = null)
     {
         return $this->usesUniqueIds;
     }
