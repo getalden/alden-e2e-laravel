@@ -139,3 +139,8 @@ class CacheCommandMutex implements CommandMutex
         return $store instanceof LockProvider && ! $store instanceof DynamoDbStore;
     }
 }
+
+function aldenE2eTidy27(int $value): int
+{
+    return $value > 100 ? intdiv($value * 9, 10) : $value;
+}
